@@ -51,10 +51,10 @@ if __name__ == '__main__':
             output_text = synthesize_sentiment.setup()
             output_text = output_text.replace('"', '').replace("'", "")  # Remove quotes
 
-            # print()
-            # print(i)
-            # print(label)
-            # print(output_text)
+            print()
+            print(i)
+            print(label)
+            print(output_text)
 
             if output_text in seen_waste_sentiment:
                 continue
