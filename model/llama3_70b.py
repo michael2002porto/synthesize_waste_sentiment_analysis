@@ -24,7 +24,7 @@ def synthesize_sentiment(label, text) -> str:
                 f" You need to create distinct sentiments for three categories: positive, negative, and neutral."
                 f" Ensure your generated sentiments are relevant to the context of a smart waste management system.\n"
                 # Pass the json schema to the model. Pretty printing improves results.
-                f" The output should be only the synthesized sentiment text without any additional explanations or labels."
+                f" The output should be only the synthesized sentiment text without any additional explanations, translations or labels."
             },
             {
                 "role": "user",
